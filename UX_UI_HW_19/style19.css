@@ -1,1 +1,84 @@
-style19.css
+body {
+    margin: 0;
+    
+  }
+  header {
+    background-color: #eeb789;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: white;}
+
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  
+  header p {
+    display: inline-block;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.intro {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #f8dcb7;
+  }
+  .introGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "img1 content1";
+}
+    .introGrid img {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+        display: block;
+      }
+      .img1 {
+        grid-area: img1;
+        padding: 80px;
+      }
+      .content1 {
+        grid-area: content1;
+      }
+      button {
+        padding: 15px;
+        
+        color: white;
+        font-size: 15px;
+        border-radius: 4px;
+        color: rgb(228, 100, 15);
+        background-color: #f0c6ad; 
+        border:#ca4405
+        font-size: 28px;}
+
+  
+  
+   
+   
+
+
+}
+
+    
+footer {
+    background-color: #f1ba94;
+    padding: 5px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+      
+
+    }
+
